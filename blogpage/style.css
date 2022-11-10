@@ -229,6 +229,7 @@ body main .conteiner .articles .all-article-link-block .all-article-link {
 }
 body main .conteiner .articles .article {
   margin-top: 35px;
+  height: 200px;
   display: flex;
 }
 body main .conteiner .articles .article .article-text {

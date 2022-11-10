@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 1366px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  border: 5px solid rgba(0, 0, 0, 0.1);
+}
+body header {
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+body header .header-block {
+  width: 1200px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+body main {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+body main .title {
+  height: 250px;
+  background-image: url("images/tiitle.png");
+}
+body main .title h1 {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 44px;
+  line-height: 74px;
+  color: white;
+}
+body main .title p {
+  width: 780px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.4);
+}
+body main .contact-and-message {
+  margin-top: 60px;
+  display: flex;
+}
+body main .contact-and-message .contact {
+  margin-left: 210px;
+  width: 320px;
+}
+body main .contact-and-message .contact .contact-image {
+  background-image: url("images/contacts.png");
+  margin: 0 auto;
+  height: 180px;
+}
+body main .contact-and-message .contact .contact-adress {
+  margin-top: 70px;
+  width: 300px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+body main .contact-and-message .contact .contact-adress h2 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #1F3F68;
+}
+body main .contact-and-message .contact .contact-adress p {
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+body main .contact-and-message .contact .contact-phone {
+  margin-top: 40px;
+  width: 300px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+body main .contact-and-message .contact .contact-phone h2 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #1F3F68;
+  margin-bottom: 25px;
+}
+body main .contact-and-message .contact .contact-phone .img-and-phone {
+  display: flex;
+}
+body main .contact-and-message .contact .contact-phone .img-and-phone .phone-image {
+  margin-right: 20px;
+  background-image: url("images/phone_18px.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.6;
+  width: 24px;
+  height: 24px;
+  padding: 3px;
+}
+body main .contact-and-message .contact .contact-phone .img-and-phone .phone {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+body main .contact-and-message .contact .contact-online {
+  margin-top: 40px;
+  width: 300px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+body main .contact-and-message .contact .contact-online .contact-web-and-email .contact-web {
+  display: flex;
+  margin-bottom: 15px;
+}
+body main .contact-and-message .contact .contact-online .contact-web-and-email .contact-web .contact-web-image {
+  margin-right: 20px;
+  background-image: url("images/language.png");
+  opacity: 0.6;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+}
+body main .contact-and-message .contact .contact-online .contact-web-and-email .contact-web .contact-web-address {
+  font-size: 16px;
+  line-height: 26px;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+body main .contact-and-message .contact .contact-online .contact-web-and-email .contact-email {
+  display: flex;
+}
+body main .contact-and-message .contact .contact-online .contact-web-and-email .contact-email .contact-email-image {
+  margin-right: 20px;
+  background-image: url("images/email.png");
+  opacity: 0.6;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+}
+body main .contact-and-message .contact .contact-online .contact-web-and-email .contact-email .contact-email-address {
+  font-size: 16px;
+  line-height: 26px;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+body main .contact-and-message .message form {
+  width: 540px;
+  height: 800px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 5px 5px greenyellow;
+}
+body main .map {
+  margin-top: 100px;
+  height: 480px;
+  background-image: url("images/map.png");
+  background-repeat: no-repeat;
+  background-size: 940px 480px;
+  background-position: center;
+}
+body .footer {
+  font-family: "Roboto", sans-serif;
+  height: 870px;
+  width: 1270px;
+  margin-top: 95px;
+  background: #316099;
+  border-radius: 0px 200px 0px 0px;
+}
+body .footer .top-footer {
+  height: 380px;
+  width: 1075px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+body .footer .top-footer .work-info {
+  margin-left: 210px;
+  width: 460px;
+  height: 205px;
+}
+body .footer .top-footer .work-info .work-info-header {
+  font-size: 36px;
+  line-height: 46px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+body .footer .top-footer .work-info .work-info-text {
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+body .footer .top-footer button {
+  width: 180px;
+  height: 55px;
+  background-color: #5A98D0;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+}
+body .footer .bottom-footer {
+  margin-top: 100px;
+}
+body .footer .bottom-footer .info {
+  display: flex;
+}
+body .footer .bottom-footer .info .contacts {
+  width: 300px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-left: 210px;
+  margin-right: 100px;
+}
+body .footer .bottom-footer .info .contacts .footer-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+body .footer .bottom-footer .info .contacts .footer-logo .name {
+  margin-left: 15px;
+  font-size: 28px;
+  line-height: 46px;
+  color: #FFFFFF;
+}
+body .footer .bottom-footer .info .contacts .contact-data {
+  display: flex;
+}
+body .footer .bottom-footer .info .contacts .contact-data .adress,
+body .footer .bottom-footer .info .contacts .contact-data .telephone,
+body .footer .bottom-footer .info .contacts .contact-data .email {
+  margin-left: 15px;
+}
+body .footer .bottom-footer .info .contacts .contact-data .adress,
+body .footer .bottom-footer .info .contacts .contact-data .telephone {
+  margin-bottom: 25px;
+}
+body .footer .bottom-footer .info .about {
+  width: 165px;
+  height: 215px;
+  margin-right: 80px;
+}
+body .footer .bottom-footer .info .about h5 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+body .footer .bottom-footer .info .about p {
+  margin-top: 15px;
+}
+body .footer .bottom-footer .info .about a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+body .footer .bottom-footer .info .follow {
+  width: 100px;
+  height: 215px;
+}
+body .footer .bottom-footer .info .follow h5 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+body .footer .bottom-footer .info .follow p {
+  margin-top: 15px;
+}
+body .footer .bottom-footer .info .follow a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+body .footer .bottom-footer .copyright {
+  margin-left: 210px;
+  margin-top: 65px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  opacity: 0.4;
+}/*# sourceMappingURL=style.css.map */
