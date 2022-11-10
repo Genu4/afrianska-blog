@@ -54,6 +54,7 @@ body {
         .contact-and-message {
             margin-top: 60px;
             display: flex;
+            justify-content: space-between;
 
             .contact {
                 margin-left: 210px;
@@ -165,14 +166,68 @@ body {
             }
 
             .message {
+                margin-right: 210px;
 
                 form {
                     width: 540px;
                     height: 800px;
                     border-radius: 10px;
-                    display: flex;
-                    flex-direction: column;
-                    box-shadow: 5px 5px 5px 5px greenyellow;
+                    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+                    padding: 55px;
+                    fieldset {
+                        border: none;
+                        h2 {
+                            margin-bottom: 50px;
+                            font-size: 20px;
+                            line-height: 30px;
+                            color: #1F3F68;
+                        }
+                        input {
+                            width: 100%;
+                            height: 70px;
+                            margin-bottom: 30px;
+                            border-radius: 10px;
+                            border: 1px solid #356EAD;
+                            padding-left: 35px;
+                            
+                        }
+                        textarea {
+                            width: 100%;
+                            height: 145px;
+                            border-radius: 10px;
+                            border: 1px solid #356EAD;
+                            resize: none;
+                            padding-left: 35px;
+                            padding-top: 20px;
+                        }
+                        ::placeholder {
+                            font-size: 16px;
+                            line-height: 30px;
+                            color: #1F3F68;
+                            opacity: 0.2; 
+                        }
+                        .tittle {
+                            margin-bottom: 10px;
+                            font-size: 16px;
+                            line-height: 30px;
+                            color: #1F3F68;
+                            opacity: 0.8;
+                        }
+                        button {
+                            margin-top: 95px;
+                            width: 100%;
+                            height: 70px;
+                            border: none;
+                            border-radius: 10px;
+                            background-color: #5A98D0;
+                            font-size: 16px;
+                            line-height: 26px;
+                            text-align: center;
+                            color: #FFFFFF;
+                            filter: drop-shadow(5px 10px 20px rgba(16, 112, 177, 0.2));
+                        }
+                    }
+                    
                 }
 
             }
