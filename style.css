@@ -15,15 +15,48 @@ body {
 }
 body header {
   height: 768px;
-  background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0.05) 31.12%);
+  padding-top: 48px;
+  background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 body header .top-header-block {
-  margin: 40px auto 45px auto;
+  margin: 0px auto 45px auto;
   width: 1200px;
   height: 48px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: white;
+}
+body header .top-header-block .menu {
+  margin: auto 0;
+  position: relative;
+}
+body header .top-header-block .menu .sub-menu {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  left: -320px;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition-property: opacity, visibility;
+  transition-duration: 0.1s;
+  transition-delay: 0.05s;
+}
+body header .top-header-block .menu .sub-menu a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #316099;
+  margin-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 5px;
+}
+body header .top-header-block .menu:hover .sub-menu {
+  opacity: 1;
+  visibility: visible;
 }
 body header .bottom-header-block {
   height: 635px;
@@ -75,7 +108,6 @@ body main .our-work {
 }
 body main .our-work .colomn-1 {
   width: 50%;
-  border: 1px solid red;
 }
 body main .our-work .colomn-1 h2 {
   width: 360px;
@@ -136,7 +168,6 @@ body main .our-work .colomn-1 .block-1 .learn-more a img {
 }
 body main .our-work .colomn-2 {
   width: 50%;
-  border: 1px solid red;
 }
 body main .our-work .colomn-2 .block-2 {
   width: 380px;
